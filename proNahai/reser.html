@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./assets/boot/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="./assets/boot/css/res.css">
+</head>
+
+<body>
+    <div id="booking" class="section">
+        <div class="section-center">
+            <div class="container">
+                <div class="row">
+                    <div class="booking-form">
+                        <div class="form-header">
+                            <h1>رزرو خود را انجام دهید
+                            </h1>
+                        </div>
+                        <form>
+                            <div class="form-group"> <input class="form-control" type="text"
+                                    placeholder="آدرس محل سکونت را وارد کنید"> <span class="form-label">city</span>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 qs">
+                                    <div class="form-group"> <input class="form-control qs" type="date" required>
+                                        <span class="form-label">تاریخ ورود</span> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input class="form-control qsa" type="date" required > <span
+                                            class="form-label">تاریخ خروج</span> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group"> <select class="form-control a" required>
+                                            <option value="" selected hidden>تعداد اتاق</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select> <span class="select-arrow"></span> <span
+                                            class="form-label">Rooms</span> </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group"> <select class="form-control a" required>
+                                            <option value="" selected hidden>تعداد</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select> <span class="select-arrow"></span> <span
+                                            class="form-label">Adults</span> </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group"> <select class="form-control a" required>
+                                            <option value="" selected hidden>تعداد فرزندان</option>
+                                            <option>0</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select> <span class="select-arrow"></span> <span
+                                            class="form-label">Children</span> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input class="form-control aa" type="email"
+                                            placeholder="ایمیل خورد را وارد کنید"> <span class="form-label">Email</span> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input class="form-control aa" type="tel"
+                                            placeholder="شماره تماس را وارد کنید"> <span class="form-label">Phone</span> </div>
+                                </div>
+                            </div>
+                            <div class="form-btn"> <button class="submit-btn">رزرو</button> </div>
+                            <a type="button" href="./index.html" class="btn btn-outline-info mt-5">برگشت</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
